@@ -163,7 +163,7 @@ st.markdown("""
 
 # Load model and encoders
 try:
-    rf_model = joblib.load('/Users/adnan/Desktop/MAJORPROJECT/stress_level_model (1).pkl')
+    rf_model = joblib.load('/Users/adnan/Desktop/MAJORPROJECT/stress_level_model.pkl')
     encoders = joblib.load('/Users/adnan/Desktop/MAJORPROJECT/label_encoders.pkl')
     st.success("✅ Model and encoders loaded successfully!")
 except Exception as e:
